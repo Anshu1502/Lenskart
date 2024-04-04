@@ -1,0 +1,337 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.fnav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.fnav img{
+    height: 35px;
+    width: 160px;
+}
+.fnav input{
+    padding-left: 15px;
+    padding-right: 200px;
+    border-radius: 10px;
+}
+.fnav p{
+    padding-top: 9px;
+}
+.fnav a{
+    text-decoration: none;
+    color: black;
+}
+.fnav a:hover{
+    text-decoration: underline;
+    color: dimgray;
+}
+.snav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.snav ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -30px;
+    margin-right: 0px;
+}
+.snav ul li{
+    display: inline;
+    padding-right: 20px;
+}
+.snav img{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    margin-left: -100px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.pic img{
+    height: 145px;
+    width: 237px;
+}
+.pic img:hover{
+    scale: 1.1;
+}
+.pic p{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.second img{
+    margin-top: 40px;
+    width: 100%;
+    height: 420px;
+}
+.second .button{
+    margin-top: -105px;
+    margin-left: 662px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    
+}
+.second .button button{
+    border-radius: 35px;
+    font-size: 30px;
+    padding: 15px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.second button a{
+    text-decoration: none;
+    color: black;
+}
+.third{
+    height: 320px;
+}
+.third img{
+    width: 100%;
+    height: 320px;
+}
+.third .button{
+    margin-top: -92px;
+    width: 100%;
+    text-align: center;
+}
+.third .button a{
+    text-decoration: none;
+    color: black;
+}
+.button button{
+    font-family: sans-serif;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mainpic img{
+    width: 100%;
+    height: 400px;
+}
+.main{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: sans-serif;
+}
+.main .aa{
+    margin-top: 35px;
+}
+.aa p{
+    padding-top: 15px;
+    font-size: 27px;
+}
+.aa p1{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.aa p2{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.pic1{
+    text-align: center;
+    margin-left: 60px;
+}
+.pic1 img{
+    height: 135px;
+    width: 220px;
+}
+.pic1 p{
+    font-size: 25px;
+    margin-top: -15px;
+}
+.pic1 button{
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: rgb(131, 202, 210);
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.fourth{
+    text-align: center;
+    margin-top: 20px;
+}
+.fourth p{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+}
+.fourth img{
+    height: 400px;
+    width: 100%;
+}
+.fifth{
+    margin-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.fifth p{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.fifth img{
+    height: 700px;
+    width: 575px;
+    margin-right: 10px;
+}
+.fifth .f1{
+    float: right;
+}
+.fifth .f1 img{
+    height: 345px;
+    width: 575px;
+}
+.fifth .f2{
+    float: right;
+    margin-top: -350px;
+}
+.fifth .f2 img{
+    height: 345px;
+    width: 575px;
+}
+.sixth p{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.sixth img{
+    height: 400px;
+    width: 100%;
+}
+.seventh{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.seventh p{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.seventh .s1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.seventh .s1 img{
+    display: inline;
+    height: 150px;
+    width: 300px;
+}
+.seventh .button{
+    width: 100%;
+    text-align: center;
+}
+.seventh .button a{
+    text-decoration: none;
+    color: black;
+}
+.seventh .button button{
+    font-family: sans-serif;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.eighth p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.eighth .e1{
+    margin: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.eighth .e1 img{
+    display: inline;
+    height: 280px;
+    width: 48%;
+}
+
+footer{
+    padding: 50px;
+    background-color: rgb(1, 1, 82);
+    color: white;
+    font-family: sans-serif;
+}
+footer p{
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+footer p1{
+    font-size: 15px;
+
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: -220px;
+    margin-bottom: 20px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    font-size: 15px;
+}
+.footer-list ul{
+    list-style: none;
+}
+.footer-list ul li{
+    margin-bottom: 15px;
+}
+.footer-list ul li h4{
+    font-size: 20px;
+}
+.endlist{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: -955px;
+}
+.endlist ul{
+    list-style: none;
+
+}
+.endlist ul li{
+    display: inline;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.end{
+    margin-bottom: -15px;
+}
+.end p{
+    float: right;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: 40px;
+}
