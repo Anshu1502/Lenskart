@@ -6,6 +6,8 @@
     <title>Lenskart</title>
     <link rel="stylesheet" href="webpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
 <body>
     
@@ -59,8 +61,30 @@
             <p>Progressive lenses</p>
         </div>
     </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="Banner1.webp" style="height: 500px; width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="Banner2.webp" style="height: 500px; width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="banner3.webp" style="height: 500px; width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner4.webp" style="height: 500px; width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner5.webp" style="height: 500px; width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner6.webp" style="height: 500px; width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
     <div class="second">
-        <img src="New_Web_Banner.webp">
+        <img src="main.jpeg">
         <div class="button">
             <button><a href="first.html">Shop Now</a></button>
         </div>
@@ -81,10 +105,6 @@
         <div class="button">
             <button><a href="second.html">view more <i class="fa-solid fa-angle-down"></i></a></button>
         </div>
-    </div>
-    <div class="mainpic">
-        <img src="main.jpeg" alt="">
-    </div>
     <div class="main">
         <div class="aa">
             <p>WEAR THE</p>
@@ -181,9 +201,35 @@
         <div class="end">
             <p>Version 1.0.0 || Follow Us <i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i></p>
         </div>
-        
-
-
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
 </body>
 </html>
