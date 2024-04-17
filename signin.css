@@ -10,12 +10,59 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
-
+.backbtn button{
+	margin: 10px 0 0 10px;
+	height: 35px;
+	width: 35px;
+	border: none;
+	font-size: 20px;
+	opacity: .5;
+}
+.backbtn button:hover{
+	border-radius: 50%;
+	background-color: rgb(150, 150, 150);
+	opacity: 1;
+}
+.fnav{
+  display: flex;
+  justify-content: space-between;
+  margin: -35px 45px 0 45px;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+.fnav img{
+  height: 35px;
+  width: 160px;
+}
+.fnav input{
+  padding-left: 15px;
+  padding-right: 200px;
+  border-radius: 10px;
+}
+.fnav p{
+  padding-top: 9px;
+}
+.fnav a{
+  text-decoration: none;
+  color: black;
+}
+.fnav a:hover{
+  text-decoration: underline;
+  color: dimgray;
+}
+.fnav .sign{
+  text-decoration: underline;
+    color: dimgray;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 7px 10px 0 10px;
+}
 .container {
   position: relative;
+  margin-top: 20px;
   width: 100%;
   background-color: #fff;
-  min-height: 100vh;
+  height: 630px;
   overflow: hidden;
 }
 
@@ -191,7 +238,7 @@ form.sign-in-form {
 
 .left-panel {
   pointer-events: all;
-  padding: 3rem 17% 2rem 12%;
+  padding: 3rem 27% 2rem 12%;
 }
 
 .right-panel {
@@ -200,6 +247,7 @@ form.sign-in-form {
 }
 
 .panel .content {
+  margin-top: 30%;
   color: #fff;
   transition: transform 0.9s ease-in-out;
   transition-delay: 0.6s;
