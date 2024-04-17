@@ -3,16 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 	<link rel="stylesheet" href="location.css">
 	<title>Location</title>
 </head>
 <body>
+    <div class="backbtn">
+        <button onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></button>
+    </div>
 	<nav class="fnav">
         <img src="1.jpg" alt="">
         <img src="no.jpg" alt="">
         <input type="text" placeholder="What are you looking for?">
-        <p>Track Order</p>
-        <p>Sign In & Sign Out</p>
+        <p class="track">Track Order</p>
+        <p><a href="signin.html">Sign In & Sign Out</a></p>
         <p><i class="fa-regular fa-heart"></i> Wishlist</p>
         <p><i class="fa-solid fa-bag-shopping"></i> Cart</p>
     </nav>
@@ -44,7 +48,7 @@
 		<p1>Experience eyewear in a whole new way: Visit your nearest store<br>
 			and treat yourself to 5000+ eyewear styles.</p1>
 		<br><br>
-		<button><a href="https://www.lenskart.com/stores">locate store </a></button>
+		<button class="locate"><a href="https://www.lenskart.com/stores">locate store </a></button>
 		</div>
 	</div>
     <div class="mapouter">
