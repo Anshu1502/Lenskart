@@ -6,7 +6,7 @@
 .fnav{
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 10px;
     font-family: sans-serif;
 }
 .fnav img{
@@ -204,65 +204,6 @@
 .pic1 button a:hover{
     text-decoration: underline;
     color: black;
-}
-.fourth{
-    text-align: center;
-    margin-top: 20px;
-}
-.fourth p{
-    background-color: black;
-    color: white;
-    font-size: 40px;
-    padding: 15px;
-}
-.fourth img{
-    height: 400px;
-    width: 100%;
-}
-.fifth{
-    margin-top: 70px;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-.fifth p{
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-.fifth img{
-    height: 700px;
-    width: 575px;
-    margin-right: 10px;
-}
-.fifth .f1{
-    float: right;
-}
-.fifth .f1 img{
-    height: 345px;
-    width: 575px;
-}
-.fifth .f2{
-    float: right;
-    margin-top: -350px;
-}
-.fifth .f2 img{
-    height: 345px;
-    width: 575px;
-}
-.sixth p{
-    margin-top: 70px;
-    margin-bottom: 20px;
-    font-size: 30px;
-    text-align: center;
-    font-family: sans-serif;
-}
-.sixth img{
-    height: 400px;
-    width: 100%;
-}
-.seventh{
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 .seventh p{
     text-align: center;
