@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.backbtn button{
+	margin: 10px 0 0 10px;
+	height: 35px;
+	width: 35px;
+	border: none;
+	font-size: 20px;
+	opacity: .5;
+}
+.backbtn button:hover{
+	border-radius: 50%;
+	background-color: rgb(150, 150, 150);
+	opacity: 1;
+}
+.fnav{
+    display: flex;
+    justify-content: space-between;
+    margin: -35px 45px 0 45px;
+    font-family: sans-serif;
+    background-color: transparent;
+}
+.fnav img{
+    height: 35px;
+    width: 160px;
+}
+.fnav input{
+    padding-left: 15px;
+    padding-right: 200px;
+    border-radius: 10px;
+}
+.fnav p{
+    padding-top: 9px;
+}
+.fnav a{
+    text-decoration: none;
+    color: black;
+}
+.fnav a:hover{
+    text-decoration: underline;
+    color: dimgray;
+}
+.snav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.snav ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -30px;
+    margin-right: 0px;
+}
+.snav ul li{
+    display: inline;
+    padding-right: 20px;
+}
+.snav img{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    margin-left: -100px;
+}
+.main{
+	display: flex;
+	font-family: sans serif;
+	margin-top: 85px;
+}
+.aa{
+	text-align: center;
+	margin-left: 150px;
+}
+.aa p{
+	font-size: 45px;
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+.aa p1{
+	font-size: 20px;
+}
+.book{
+	border-radius: 30px;
+	padding: 20px;
+	margin-top: 10px;
+	font-size: 17px;
+}
+.aa .book a{
+	text-decoration: none;
+	color: black;
+}
